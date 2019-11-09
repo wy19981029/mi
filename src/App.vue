@@ -4,8 +4,8 @@
 	  <van-tabbar v-model="active1" v-show="this.$route.meta.tc== true ">
 	  	<van-tabbar-item to="/about" icon="home-o">首页</van-tabbar-item>
 	  	<van-tabbar-item to="/" icon="todo-list-o">分类</van-tabbar-item>
-	  	<van-tabbar-item to="/" icon="cart-o">购物车</van-tabbar-item>
-	  	<van-tabbar-item to="/" icon="contact">我的</van-tabbar-item>
+	  	<van-tabbar-item to="/shopcar" icon="cart-o">购物车</van-tabbar-item>
+	  	<van-tabbar-item to="/my" icon="contact">我的</van-tabbar-item>
 	  </van-tabbar>
     </div>
    

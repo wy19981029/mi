@@ -16,14 +16,14 @@
 				<img :src="item.img_url_webp" />
 				</van-swipe-item>
 			</van-swipe>
-				<van-grid :column-num="5" icon-size="72px">
+				<van-grid :column-num="5" icon-size="60px">
 				  <van-grid-item
 				    v-for="item in info.data.data.sections[1].body.items"
 				    :key="item.value"
 				    :icon="item.img_url_webp"
 				  />
 				</van-grid>
-				<van-grid :column-num="5" icon-size="72px">
+				<van-grid :column-num="5" icon-size="60px">
 				  <van-grid-item
 				    v-for="item in info.data.data.sections[2].body.items"
 				    :key="item.value"
@@ -92,47 +92,47 @@
 					 
 					</van-row>
 				</div>
-				<div class="onn2">
-					<van-row type="flex" justify="space-around">
-						  <van-col span="6" class="son">
-								<img :src="info.data.data.sections[14].body.items[0].img_url_webp" alt="">
-								<h3>{{info.data.data.sections[14].body.items[0].product_name}}</h3>
-								<span class="infoac">{{info.data.data.sections[14].body.items[0].product_brief}}</span>
-								<p class="bedpq">{{info.data.data.sections[14].body.items[0].product_org_price}}</p>
-								<div class="reaq">
-									<span>立即购买</span>
-								</div>
-						  </van-col>
-					  <van-col span="6" class="son">
-						  <img :src="info.data.data.sections[14].body.items[1].img_url_webp" alt="">
-						  <h3>{{info.data.data.sections[14].body.items[1].product_name}}</h3>
-						  <span class="infoac">{{info.data.data.sections[14].body.items[1].product_brief}}</span>
-						  <p class="bedpq">{{info.data.data.sections[14].body.items[1 ].product_org_price}}</p>
-						  <div class="reaq">
-						  	<span>立即购买</span>
-						  </div>
-					  </van-col>
-					 
-					</van-row>
-				</div>
 				<div class="zxc">
 					<van-row type="flex" justify="center">
 					  <van-col span="6">
-						  {{info.data.data.sections[16].body.items[0].action_title}}
+						  {{info.data.data.sections[14].body.items[0].action_title}}
 					  </van-col>
 					</van-row>
 				</div>
 				<van-image
 				  width="100%"
 				  height="200px"
-				  :src="info.data.data.sections[18].body.items[0].img_url_webp"
+				  :src="info.data.data.sections[16].body.items[0].img_url_webp"
 				/>
 				<van-image
 				  width="100%"
 				  height="250px"
-				  :src="info.data.data.sections[20].body.items[0].img_url_webp"
+				  :src="info.data.data.sections[18].body.items[0].img_url_webp"
 				/>
 				<div class="onn3">
+					<van-row type="flex" justify="space-around">
+						  <van-col span="6" class="son">
+								<img :src="info.data.data.sections[20].body.items[0].img_url_webp" alt="">
+								<h3>{{info.data.data.sections[20].body.items[0].product_name}}</h3>
+								<span class="infoac">{{info.data.data.sections[20].body.items[0].product_brief}}</span>
+								<p class="bedpq">{{info.data.data.sections[20].body.items[0].product_org_price}}</p>
+								<div class="reaq">
+									<span>立即购买</span>
+								</div>
+						  </van-col>
+					  <van-col span="6" class="son">
+						  <img :src="info.data.data.sections[20].body.items[1].img_url_webp" alt="">
+						  <h3>{{info.data.data.sections[20].body.items[1].product_name}}</h3>
+						  <span class="infoac">{{info.data.data.sections[20].body.items[1].product_brief}}</span>
+						  <p class="bedpq">{{info.data.data.sections[20].body.items[1 ].product_org_price}}</p>
+						  <div class="reaq">
+						  	<span>立即购买</span>
+						  </div>
+					  </van-col>
+					 
+					</van-row>
+				</div> 
+				<div class="onn4">
 					<van-row type="flex" justify="space-around">
 						  <van-col span="6" class="son">
 								<img :src="info.data.data.sections[22].body.items[0].img_url_webp" alt="">
@@ -148,29 +148,6 @@
 						  <h3>{{info.data.data.sections[22].body.items[1].product_name}}</h3>
 						  <span class="infoac">{{info.data.data.sections[22].body.items[1].product_brief}}</span>
 						  <p class="bedpq">{{info.data.data.sections[22].body.items[1 ].product_org_price}}</p>
-						  <div class="reaq">
-						  	<span>立即购买</span>
-						  </div>
-					  </van-col>
-					 
-					</van-row>
-				</div> 
-				<div class="onn4">
-					<van-row type="flex" justify="space-around">
-						  <van-col span="6" class="son">
-								<img :src="info.data.data.sections[24].body.items[0].img_url_webp" alt="">
-								<h3>{{info.data.data.sections[24].body.items[0].product_name}}</h3>
-								<span class="infoac">{{info.data.data.sections[24].body.items[0].product_brief}}</span>
-								<p class="bedpq">{{info.data.data.sections[24].body.items[0].product_org_price}}</p>
-								<div class="reaq">
-									<span>立即购买</span>
-								</div>
-						  </van-col>
-					  <van-col span="6" class="son">
-						  <img :src="info.data.data.sections[24].body.items[1].img_url_webp" alt="">
-						  <h3>{{info.data.data.sections[24].body.items[1].product_name}}</h3>
-						  <span class="infoac">{{info.data.data.sections[24].body.items[1].product_brief}}</span>
-						  <p class="bedpq">{{info.data.data.sections[24].body.items[1 ].product_org_price}}</p>
 						  <div class="reaq">
 						  	<span>立即购买</span>
 						  </div>
@@ -252,22 +229,7 @@
 				<div class="bk">
 					<span>立即预约</span>
 				</div>
-			</div>
-			
-			
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+			</div>			
 		</div>
 
   
@@ -323,6 +285,8 @@
 	float: left;
 	width: 50%;
 	height: 300px;
+	position: relative;
+	left: -20px;
 }
 .xz img{
 	width: 100%;
